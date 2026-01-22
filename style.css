@@ -15,7 +15,7 @@ body.homepage{
 
 body h1{
     justify-content: flex-start;
-    color: #dc6464;
+    color: #aa6868;
     font-size: 4em;
     font-family: Consolas;
 }
@@ -36,6 +36,47 @@ button:hover{
 
 /* Page2 Html */
 
+.body_2nd{
+    background-image: url('Images/Kim67.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    min-height: 100vh; 
+    width: 100vw; 
+}
+.body_2nd img{
+}
+
+.door_page {
+    padding-left: 60vh;
+    padding-top: 39vh;
+}
+.door_choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0 60px; 
+    pointer-events: none; /* Allows clicking through the container */
+}
+
+.door_choice a {
+    pointer-events: auto; /* Re-enables clicking on the links */
+    transition: transform 0.3s ease-in-out;
+}
+
+.door_choice a:hover {
+    transform: scale(1.1);
+}
+
+.door_choice img {
+    max-width: 150px;
+    height: auto;
+}
 
 
 /* JavaScrip code */
