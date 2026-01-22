@@ -1,24 +1,66 @@
+body{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 #countLabel{
     display: block;
+    border-style: dashed;
     text-align: center;
-    font-size: 7em;
+    font-size: 3em;
     font-family: "Helvetica";
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
 }
 #btnContainer{
     text-align: center;
 }
 
 .buttons{
-    padding: 10px 15px;
+    padding: 5px 5px;
     font-size: 1.2em;
     color: white;
-    background-color: hsl(214, 94%, 70%);
+    background-color: hsl(0, 0%, 0%);
     border-radius: 5px;
+    border-color: #f6b1b1;
     cursor: pointer;
     transition: background-color 0.25s;
 }
 
 .buttons:hover{
-    background-color: hsl(214, 100%, 59%);
+    background-color: hsl(0, 1%, 21%);
 }
+
+#countLabel2{
+    display: block;
+    border-style: dashed;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Helvetica";
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+}
+#btnContainer2{
+    text-align: center;
+}
+
+.buttons2{
+    padding: 10px 15px;
+    font-size: 1.2em;
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 5px;
+    border-color: #f6b1b1;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons2:hover{
+    background-color: hsl(0, 1%, 21%);
+}
+
