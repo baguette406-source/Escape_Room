@@ -1,12 +1,44 @@
+/* Page1 Html */
 body{
     display: flex;
     gap: 40px;
-    justify-content: center;
     flex-wrap: wrap;
-    background-color: #191919;
+    background-color: #000000;
 }
 
+body.homepage{
+    background-image: url('Images/abdullahi_img.png');
+    background-size: contain;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+}
 
+body h1{
+    justify-content: flex-start;
+    color: #dc6464;
+    font-size: 4em;
+    font-family: Consolas;
+}
+.head button{
+    position: relative;
+    background-color: #777780;
+    padding: 2vh 3vh;
+    border-radius: 9px;
+    left: 200px;
+    cursor: pointer;
+    transition: ease-in 0.25s;
+}
+button:hover{
+    transform: scale(1.05);
+    background-color: #28284a;
+    border-radius: 10px;
+}
+
+/* Page2 Html */
+
+
+
+/* JavaScrip code */
 
 #countLabel{
     display: block;
@@ -65,4 +97,3 @@ body{
 .buttons2:hover{
     background-color: hsl(0, 1%, 21%);
 }
-
